@@ -30,6 +30,7 @@ public class AddingClientTest {
     @AfterMethod
     public void shutDown(){
         Driver.quitDriver();
+        System.out.println("Nurlan!straight == true");
     }
 
 
@@ -73,6 +74,7 @@ public class AddingClientTest {
      addClientPage.clientAddress.sendKeys(faker.address().fullAddress());
      addClientPage.saveClientButton.click();
      Assert.assertTrue(addClientPage.errorNameMessage.isDisplayed()); // error message (client's name can not contain special chars or digits)
+
 
 
  }

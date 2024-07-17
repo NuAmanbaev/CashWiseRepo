@@ -12,6 +12,7 @@ public class GoogleTest {
         Assert.assertTrue( 5 > 2 );
         Thread.sleep(10000);
 
+
     }
     @BeforeMethod
     public void beforeMethod(){
@@ -25,6 +26,7 @@ public class GoogleTest {
         Thread.sleep(15000);
 
     }
+
 
 
 }
